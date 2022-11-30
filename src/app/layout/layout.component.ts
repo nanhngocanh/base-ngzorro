@@ -15,47 +15,18 @@ export class LayoutComponent implements OnInit {
       url: '',
     },
     {
-      title: 'Khách hàng',
+      title: 'Quản lý đơn hàng',
       icon: 'database',
       subMenus: [
         {
-          title: 'Hồ sơ cá nhân',
-          url: `customer/m/list`,
+          title: 'Danh sách đơn hàng',
+          url: `shipping-order-list`,
         },
         {
-          title: 'Hồ sơ doanh nghiệp',
-          url: ``,
-        },
-        {
-          title: 'Phê duyệt khách hàng',
-          url: `customer/m/sub-list`,
+          title: 'Tạo đơn hàng',
+          url: `shipping-order-list/create`,
         },
       ],
-    },
-    {
-      title: 'Seller',
-      icon: 'user',
-      subMenus: [
-        {
-          title: 'Hồ sơ seller',
-          url: `sale/m/list`,
-        },
-        {
-          title: 'Phê duyệt seller',
-          url: `sale/m/sub-list`,
-        },
-      ],
-    },
-
-    {
-      title: 'Quản lý hợp đồng',
-      icon: 'file',
-      url: 'contract/contract',
-    },
-    {
-      title: 'Settings',
-      icon: 'ellipsis',
-      url: '',
     },
   ];
 

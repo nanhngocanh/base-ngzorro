@@ -21,6 +21,7 @@ import { NzSelectModule } from 'ng-zorro-antd/select';
 import { FormsModule } from '@angular/forms';
 import { NzPaginationModule } from 'ng-zorro-antd/pagination';
 import { NzModalModule } from 'ng-zorro-antd/modal';
+import { NzInputModule } from 'ng-zorro-antd/input';
 
 @NgModule({
   declarations: [
@@ -48,6 +49,7 @@ import { NzModalModule } from 'ng-zorro-antd/modal';
     NzSelectModule,
     FormsModule,
     NzPaginationModule,
+    NzInputModule
   ],
   exports: [
     BreadcrumbComponent,
